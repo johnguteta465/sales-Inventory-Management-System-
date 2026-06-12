@@ -1,51 +1,165 @@
-👥 User Workflows & Permissions
-The system operates on a role-based access control (RBAC) model. Below are the specific workflows for each user type:
-🛡️ Admin (The Superuser)
-•
-Workflow:
-i.
-System Oversight: Monitors real-time business health via the Analytics Dashboard (Revenue, Transaction Count, Top Products).
-ii.
-User Governance: Creates, updates, or deactivates accounts for Staff (Cashiers, Managers).
-iii.
-Policy Configuration: Sets global variables like Tax Rates (VAT), Currency (ETB/USD), and Business Identity.
-iv.
-Audit: Accesses all system logs and historical sale data.
-💸 Cashier (The POS Operator)
-•
-Workflow:
-i.
-Transaction Entry: Uses the POS interface to select customers and scan/add products.
-ii.
-Checkout: Processes payments via Cash, Telebirr, or Bank Transfer.
-iii.
-Fulfillment: Marks orders as Delivered upon physical hand-off.
-iv.
-Receipting: Generates and prints digital PDF receipts for customers.
-v.
-Closing: Views personal daily revenue summary.
-📦 Inventory Manager (The Stock Controller)
-•
-Workflow:
-i.
-Catalog Management: Defines Product Categories and adds new SKU items with barcodes and pricing.
-ii.
-Stock Replenishment: Updates inventory levels when new shipments arrive.
-iii.
-Alert Response: Monitors system notifications for Low Stock items to prevent stockouts.
-iv.
-Audit Trail: Reviews InventoryLogs to track exactly when and why stock levels changed.
-🛒 Customer (The End User)
-•
-Workflow:
-i.
-Self-Onboarding: Registers via the app to create a personal profile.
-ii.
-Shopping: Browses the product catalog, filters by category, and manages a personal Shopping Cart.
-iii.
-Ordering: Submits orders for processing by the business.
-iv.
-Tracking: Accesses the "My Orders" screen to view real-time status updates (e.g., watching an order move from Pending to Delivered).
+
+# User Roles, Workflows & Permissions
+
+The system follows a **Role-Based Access Control (RBAC)** model, ensuring that each user has access only to the features and operations relevant to their responsibilities.
+
+---
+
+## 🛡️ Administrator (System Superuser)
+
+The Administrator has full control over system operations, user management, and business configurations.
+
+### Key Responsibilities
+
+### 1. System Monitoring & Analytics
+
+* Monitor overall business performance through the Analytics Dashboard.
+* Track key metrics such as:
+
+  * Total Revenue
+  * Transaction Volume
+  * Best-Selling Products
+  * Inventory Performance
+
+### 2. User & Access Management
+
+* Create, update, and deactivate staff accounts.
+* Manage user roles and permissions for:
+
+  * Cashiers
+  * Inventory Managers
+  * Other Administrative Users
+
+### 3. Business Configuration
+
+* Configure global system settings, including:
+
+  * Tax Rates (VAT)
+  * Supported Currencies (ETB, USD, etc.)
+  * Business Information and Branding
+
+### 4. Audit & Reporting
+
+* Access complete transaction history.
+* Review system activity logs.
+* Generate reports for operational and financial analysis.
+
+---
+
+## 💸 Cashier (Point-of-Sale Operator)
+
+The Cashier is responsible for handling customer transactions and order fulfillment.
+
+### Key Responsibilities
+
+### 1. Sales Processing
+
+* Use the POS interface to:
+
+  * Search and select customers
+  * Scan or add products
+  * Manage shopping carts
+
+### 2. Payment Handling
+
+* Process payments through:
+
+  * Cash
+  * Telebirr
+  * Bank Transfer
+
+### 3. Order Fulfillment
+
+* Confirm completed transactions.
+* Mark orders as **Delivered** after successful handover.
+
+### 4. Receipt Management
+
+* Generate digital PDF receipts.
+* Print receipts for customers when required.
+
+### 5. Daily Summary Review
+
+* View personal sales statistics.
+* Track daily revenue and transaction performance.
+
+---
+
+## 📦 Inventory Manager (Stock Controller)
+
+The Inventory Manager oversees product availability, stock accuracy, and inventory operations.
+
+### Key Responsibilities
+
+### 1. Product & Catalog Management
+
+* Create and manage product categories.
+* Add new products with:
+
+  * SKU Codes
+  * Barcodes
+  * Pricing Information
+  * Product Details
+
+### 2. Inventory Replenishment
+
+* Update stock quantities when new inventory arrives.
+* Maintain accurate inventory records.
+
+### 3. Low-Stock Monitoring
+
+* Receive automated notifications for low-stock products.
+* Take proactive actions to prevent stock shortages.
+
+### 4. Inventory Auditing
+
+* Review inventory movement history.
+* Track stock adjustments through detailed inventory logs.
+* Identify when, why, and by whom inventory changes were made.
+
+---
+
+## 🛒 Customer (End User)
+
+Customers interact with the platform to browse products, place orders, and track purchases.
+
+### Key Responsibilities
+
+### 1. Account Registration
+
+* Create and manage a personal account.
+* Maintain profile information and contact details.
+
+### 2. Product Browsing
+
+* Explore available products.
+* Filter products by category.
+* Search for specific items.
+
+### 3. Shopping Cart Management
+
+* Add, update, or remove items from the cart.
+* Review order details before checkout.
+
+### 4. Order Placement
+
+* Submit orders for processing.
+* Complete payment using supported payment methods.
+
+### 5. Order Tracking
+
+* Monitor order progress in real time.
+* View status updates such as:
+
+  * Pending
+  * Processing
+  * Ready for Delivery
+  * Delivered
+
+### 6. Purchase History
+
+* Access previous orders and receipts.
+* Review transaction records and order details.
 
 
 
